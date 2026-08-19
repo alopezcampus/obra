@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Únete · OBRA</title>
+  <meta name="description" content="Súmate al observatorio de barrios y residencias autoconstruidas.">
+  <meta name="theme-color" content="#00171F">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Únete · OBRA">
+  <meta property="og:description" content="Súmate al observatorio de barrios y residencias autoconstruidas.">
+  <meta property="og:site_name" content="OBRA">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 fill=%27%2300171F%27/%3E%3Crect x=%2718%27 y=%2734%27 width=%2764%27 height=%2740%27 fill=%27none%27 stroke=%27%23007EA7%27 stroke-width=%278%27/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/familjen-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jetbrains-mono-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="join">
+  <a class="skip-link" href="#main" data-i18n="skip">Ir al contenido</a>
+  <div class="grid-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Obra<sup>obs</sup></a>
+      <nav class="nav" id="site-nav" data-open="false" aria-label="Principal">
+        <a href="index.html" data-i18n="nav.home">Inicio</a>
+        <a href="equipo.html" data-i18n="nav.team">Equipo</a>
+        <a href="plataforma.html" data-i18n="nav.platform">Plataforma</a>
+        <a href="actividades.html" data-i18n="nav.activities">Actividades</a>
+        <a href="unete.html" data-i18n="nav.join" aria-current="page">Únete</a>
+      </nav>
+      <div class="header-tools">
+        <div class="lang" role="group" aria-label="Idioma / Language">
+          <button type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+          <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-i18n="nav.menu">Menú</button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head wrap">
+      <p class="meta">§ &nbsp; 04</p>
+      <h1 class="display h-xxl" data-i18n="join.title">Únete</h1>
+      <p class="lede" data-i18n="join.lede"></p>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap form-layout">
+
+        <div>
+          <div class="aside-block">
+            <h3 data-i18n="join.a1.h"></h3>
+            <p data-i18n="join.a1.p"></p>
+          </div>
+          <div class="aside-block">
+            <h3 data-i18n="join.a2.h"></h3>
+            <p data-i18n="join.a2.p"></p>
+          </div>
+          <div class="aside-block">
+            <h3 data-i18n="join.a3.h"></h3>
+            <p><a data-contact-email href="#" style="border-bottom:1px solid var(--accent)">contacto@obra-observatorio.org</a></p>
+          </div>
+        </div>
+
+        <form class="form" id="join-form" novalidate>
+          <div class="field--half">
+            <div class="field">
+              <label for="f-name" data-i18n="join.f.name">Nombre completo</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-email" data-i18n="join.f.email">Correo electrónico</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+
+          <div class="field--half">
+            <div class="field">
+              <label for="f-aff" data-i18n="join.f.aff">Institución o colectivo</label>
+              <input id="f-aff" name="affiliation" type="text">
+            </div>
+            <div class="field">
+              <label for="f-city" data-i18n="join.f.city">Ciudad y país</label>
+              <input id="f-city" name="city" type="text">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-profile" data-i18n="join.f.profile">Perfil</label>
+            <select id="f-profile" name="profile">
+              <option value="phd" data-i18n="join.opt.phd"></option>
+              <option value="researcher" data-i18n="join.opt.res"></option>
+              <option value="community" data-i18n="join.opt.com"></option>
+              <option value="archive" data-i18n="join.opt.arch"></option>
+              <option value="other" data-i18n="join.opt.other"></option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="f-topic" data-i18n="join.f.topic">Tema o territorio de trabajo</label>
+            <input id="f-topic" name="topic" type="text">
+          </div>
+
+          <div class="field">
+            <label for="f-link" data-i18n="join.f.link">Enlace a tu trabajo</label>
+            <input id="f-link" name="link" type="url" placeholder="https://">
+          </div>
+
+          <div class="field">
+            <label for="f-msg" data-i18n="join.f.msg">Cuéntanos qué te interesa de OBRA</label>
+            <textarea id="f-msg" name="message" rows="5"></textarea>
+          </div>
+
+          <div>
+            <button class="btn btn--accent" type="submit" data-i18n="join.f.send">Enviar mensaje</button>
+          </div>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form__note" data-i18n="join.f.note"></p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+  <section class="cta">
+    <div class="wrap">
+      <p class="meta" style="color:inherit;opacity:.75">§ &nbsp; OBRA</p>
+      <h2 class="display h-xl" data-i18n="cta.title" style="margin-top:1.5rem">¿Investigas barrios autoconstruidos?</h2>
+      <p class="lede" style="color:inherit;margin-top:1.25rem;opacity:.9" data-i18n="cta.text"></p>
+      <a class="btn" href="unete.html" data-i18n="cta.btn">Súmate al observatorio</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4 data-i18n="footer.about.h">Observatorio</h4>
+          <p style="font-size:.875rem;max-width:34ch" data-i18n="footer.about.p"></p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.nav.h">Navegación</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="equipo.html" data-i18n="nav.team">Equipo</a></li>
+            <li><a href="plataforma.html" data-i18n="nav.platform">Plataforma</a></li>
+            <li><a href="actividades.html" data-i18n="nav.activities">Actividades</a></li>
+            <li><a href="unete.html" data-i18n="nav.join">Únete</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.follow.h">Seguir</h4>
+          <ul id="footer-social"></ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contact.h">Contacto</h4>
+          <ul>
+            <li><a data-contact-email href="#">contacto@obra-observatorio.org</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-mark" aria-hidden="true">Obra</div>
+      <div class="footer-legal">
+        <p class="meta"><span id="footer-year">2026</span> &nbsp;·&nbsp; <span data-i18n="footer.rights"></span></p>
+        <p class="meta" data-i18n="footer.credit"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
