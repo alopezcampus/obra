@@ -341,6 +341,11 @@ window.OBRA = {
       links: [
         { label: { es: "Correo", en: "Email" }, url: "mailto:obra.obs@gmail.com" }
       ]
+    },
+    {
+      name: "Julia Sotomayor",
+      role: { es: "Investigadora asociada",
+              en: "Associate researcher" }
     }
   ],
 
