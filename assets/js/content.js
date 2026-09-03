@@ -137,8 +137,12 @@ window.OBRA = {
 
     /* --- Página Únete --- */
     "join.title": { es: "Únete", en: "Join" },
-    "join.lede":  { es: "Escríbenos si investigas, habitas o documentas barrios y viviendas autoconstruidas. Leemos cada mensaje y respondemos en un plazo aproximado de dos semanas.",
-                    en: "Write to us if you research, inhabit or document self-built neighbourhoods and housing. We read every message and reply within roughly two weeks." },
+    "join.lede":  { es: "Escríbenos si investigas, habitas o documentas barrios y viviendas autoconstruidas. Leemos cada mensaje con atención.",
+                    en: "Write to us if you research, inhabit or document self-built neighbourhoods and housing. We read every message with care." },
+    "join.invite": { es: "Puedes escribirnos directamente a nuestro correo y contarnos quién eres y qué te gustaría hacer en OBRA. Revisamos la casilla de forma constante y estamos siempre atentos a nuevas propuestas, colaboraciones e incorporaciones a la red.",
+                     en: "Write to us directly at our email and tell us who you are and what you would like to do with OBRA. We check the inbox regularly and are always attentive to new proposals, collaborations and new members joining the network." },
+    "join.note2": { es: "Leemos y respondemos cada mensaje personalmente.",
+                    en: "We read and reply to every message personally." },
     "join.f.name":   { es: "Nombre completo", en: "Full name" },
     "join.f.email":  { es: "Correo electrónico", en: "Email" },
     "join.f.aff":    { es: "Institución o colectivo", en: "Institution or collective" },
@@ -321,8 +325,9 @@ window.OBRA = {
   team: [
     {
       name: "Alonso López",
-      role: { es: "Fundador y coordinador general",
-              en: "Founder and general coordinator" },
+      photo: "assets/img/alonso-lopez.jpg",
+      role: { es: "Fundador y Director",
+              en: "Founder and Director" },
       affiliation: { es: "The New School for Social Research · ICSO, Universidad Diego Portales",
                      en: "The New School for Social Research · ICSO, Universidad Diego Portales" },
       bio: { es: "Candidato a doctor en Sociología. Investiga la autoconstrucción de viviendas y la formación de ciudadanía en asentamientos de Santiago. Editor general de Cuadernos de Teoría Social.",
@@ -334,7 +339,7 @@ window.OBRA = {
           en: "Urban Theory Workshop, general coordination" }
       ],
       links: [
-        { label: { es: "Correo", en: "Email" }, url: "mailto:contacto@obra-observatorio.org" }
+        { label: { es: "Correo", en: "Email" }, url: "mailto:obra.obs@gmail.com" }
       ]
     }
   ],
@@ -343,7 +348,7 @@ window.OBRA = {
      7. DATOS DE CONTACTO Y REDES
      ------------------------------------------------------------------------ */
   contact: {
-    email: "contacto@obra-observatorio.org",
+    email: "obra.obs@gmail.com",
     social: [
       { label: "Instagram", url: "#" },
       { label: "Bluesky",   url: "#" },

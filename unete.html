@@ -10,7 +10,7 @@
   <meta property="og:title" content="Únete · OBRA">
   <meta property="og:description" content="Súmate al observatorio de barrios y residencias autoconstruidas.">
   <meta property="og:site_name" content="OBRA">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 fill=%27%2300171F%27/%3E%3Crect x=%2718%27 y=%2734%27 width=%2764%27 height=%2740%27 fill=%27none%27 stroke=%27%23007EA7%27 stroke-width=%278%27/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 fill=%27%2300171F%27/%3E%3Ccircle cx=%2750%27 cy=%2750%27 r=%2726%27 fill=%27none%27 stroke=%27%23007EA7%27 stroke-width=%2712%27/%3E%3C/svg%3E">
   <link rel="preload" href="assets/fonts/familjen-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/jetbrains-mono-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="assets/css/style.css">
@@ -56,67 +56,13 @@
             <h3 data-i18n="join.a2.h"></h3>
             <p data-i18n="join.a2.p"></p>
           </div>
-          <div class="aside-block">
-            <h3 data-i18n="join.a3.h"></h3>
-            <p><a data-contact-email href="#" style="border-bottom:1px solid var(--accent)">contacto@obra-observatorio.org</a></p>
-          </div>
         </div>
 
-        <form class="form" id="join-form" novalidate>
-          <div class="field--half">
-            <div class="field">
-              <label for="f-name" data-i18n="join.f.name">Nombre completo</label>
-              <input id="f-name" name="name" type="text" autocomplete="name" required>
-            </div>
-            <div class="field">
-              <label for="f-email" data-i18n="join.f.email">Correo electrónico</label>
-              <input id="f-email" name="email" type="email" autocomplete="email" required>
-            </div>
-          </div>
-
-          <div class="field--half">
-            <div class="field">
-              <label for="f-aff" data-i18n="join.f.aff">Institución o colectivo</label>
-              <input id="f-aff" name="affiliation" type="text">
-            </div>
-            <div class="field">
-              <label for="f-city" data-i18n="join.f.city">Ciudad y país</label>
-              <input id="f-city" name="city" type="text">
-            </div>
-          </div>
-
-          <div class="field">
-            <label for="f-profile" data-i18n="join.f.profile">Perfil</label>
-            <select id="f-profile" name="profile">
-              <option value="phd" data-i18n="join.opt.phd"></option>
-              <option value="researcher" data-i18n="join.opt.res"></option>
-              <option value="community" data-i18n="join.opt.com"></option>
-              <option value="archive" data-i18n="join.opt.arch"></option>
-              <option value="other" data-i18n="join.opt.other"></option>
-            </select>
-          </div>
-
-          <div class="field">
-            <label for="f-topic" data-i18n="join.f.topic">Tema o territorio de trabajo</label>
-            <input id="f-topic" name="topic" type="text">
-          </div>
-
-          <div class="field">
-            <label for="f-link" data-i18n="join.f.link">Enlace a tu trabajo</label>
-            <input id="f-link" name="link" type="url" placeholder="https://">
-          </div>
-
-          <div class="field">
-            <label for="f-msg" data-i18n="join.f.msg">Cuéntanos qué te interesa de OBRA</label>
-            <textarea id="f-msg" name="message" rows="5"></textarea>
-          </div>
-
-          <div>
-            <button class="btn btn--accent" type="submit" data-i18n="join.f.send">Enviar mensaje</button>
-          </div>
-          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
-          <p class="form__note" data-i18n="join.f.note"></p>
-        </form>
+        <div class="join-invite">
+          <p class="lede" data-i18n="join.invite"></p>
+          <a class="mailto-cta" data-contact-email href="#">obra.obs@gmail.com</a>
+          <p class="form__note" data-i18n="join.note2"></p>
+        </div>
 
       </div>
     </section>
@@ -154,7 +100,7 @@
         <div>
           <h4 data-i18n="footer.contact.h">Contacto</h4>
           <ul>
-            <li><a data-contact-email href="#">contacto@obra-observatorio.org</a></li>
+            <li><a data-contact-email href="#">obra.obs@gmail.com</a></li>
           </ul>
         </div>
       </div>

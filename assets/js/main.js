@@ -332,7 +332,16 @@
       card.setAttribute("data-reveal", "");
 
       var portrait = el("div", "person__portrait");
-      portrait.appendChild(portraitSVG(idx * 977 + 13));
+      if (person.photo) {
+        var img = el("img", "person__photo");
+        img.src = person.photo;
+        img.alt = person.name;
+        img.loading = "lazy";
+        img.decoding = "async";
+        portrait.appendChild(img);
+      } else {
+        portrait.appendChild(portraitSVG(idx * 977 + 13));
+      }
       card.appendChild(portrait);
 
       var head = el("div");
