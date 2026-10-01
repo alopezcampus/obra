@@ -222,6 +222,8 @@
     var list = $("#latest-list");
     if (!list) { return; }
     list.innerHTML = "";
+    var latestSection = list.closest("section");
+    if (latestSection) { latestSection.hidden = DATA.publications.length === 0; }
     DATA.publications.slice(0, 3).forEach(function (item) {
       list.appendChild(publicationRow(item));
     });
@@ -285,6 +287,8 @@
 
     if (pastBox) {
       pastBox.innerHTML = "";
+      var pastSection = pastBox.closest("section");
+      if (pastSection) { pastSection.hidden = past.length === 0; }
       past.forEach(function (a) { pastBox.appendChild(activityRow(a, true)); });
     }
   }
@@ -347,10 +351,10 @@
       var head = el("div");
       head.appendChild(el("h2", "person__name", person.name));
       head.appendChild(el("p", "person__role", pick(person.role)));
-      head.appendChild(el("p", "meta", pick(person.affiliation)));
+      if (pick(person.affiliation)) { head.appendChild(el("p", "meta", pick(person.affiliation))); }
       card.appendChild(head);
 
-      card.appendChild(el("p", "person__bio", pick(person.bio)));
+      if (pick(person.bio)) { card.appendChild(el("p", "person__bio", pick(person.bio))); }
 
       if (person.links && person.links.length) {
         var links = el("div", "person__links");

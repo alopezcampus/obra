@@ -1,5 +1,5 @@
 /* ==========================================================================
-   OBRA — CONTENIDO DEL SITIO
+   OBRA: CONTENIDO DEL SITIO
    --------------------------------------------------------------------------
    Este es el único archivo que necesitas editar para cambiar textos,
    publicaciones, actividades y miembros del equipo.
@@ -34,8 +34,8 @@ window.OBRA = {
                          en: "Observatory of Self-Built Neighbourhoods and Housing" },
     "hero.meta2":      { es: "Plataforma de investigación emergente",
                          en: "Emerging research platform" },
-    "hero.meta3":      { es: "Santiago · Nueva York · Red abierta",
-                         en: "Santiago · New York · Open network" },
+    "hero.meta3":      { es: "Red abierta",
+                         en: "Open network" },
     "hero.lede":       { es: "Reunimos a investigadoras e investigadores emergentes que trabajan sobre las viviendas y los barrios que sus propios habitantes producen. Documentamos cómo se construyen, qué formas políticas generan y qué se ha escrito sobre ellos.",
                          en: "We bring together emerging researchers working on the housing and neighbourhoods that residents build themselves. We document how they are made, the political forms they generate, and what has been written about them." },
     "hero.scroll":     { es: "Desliza · Manifiesto", en: "Scroll · Manifesto" },
@@ -49,28 +49,28 @@ window.OBRA = {
     "manifesto.title": { es: "Seis puntos de partida", en: "Six starting points" },
 
     "m1.h": { es: "La ciudad se construye sin permiso", en: "The city is built without permission" },
-    "m1.p": { es: "La mayor parte de la vivienda del mundo se levanta fuera de los circuitos formales de la arquitectura, el crédito y la norma. Ese hecho ordena la vida cotidiana de miles de millones de personas y todavía se discute como una excepción. OBRA lo trata como la regla.",
-              en: "Most of the world's housing goes up outside the formal circuits of architecture, credit and regulation. This fact organises the daily life of billions of people and is still discussed as an exception. OBRA treats it as the rule." },
+    "m1.p": { es: "Tratar como regla lo que todavía se discute como excepción. La mayor parte de la vivienda del mundo se levanta fuera de los circuitos formales de la arquitectura, el crédito y la norma, y ese hecho ordena la vida cotidiana de miles de millones de personas.",
+              en: "Treat as the rule what is still discussed as an exception. Most of the world's housing goes up outside the formal circuits of architecture, credit and regulation, and this fact organises the daily life of billions of people." },
 
     "m2.h": { es: "La autoconstrucción es un método", en: "Self-building is a method" },
-    "m2.p": { es: "Levantar una casa por partes, durante décadas, con los materiales disponibles, exige un saber técnico, financiero y político propio. Ese saber tiene historia, gramática y capacidad de transmisión. Lo documentamos como tal.",
-              en: "Raising a house in stages, over decades, with whatever materials are at hand, demands its own technical, financial and political knowledge. That knowledge has a history, a grammar and the capacity to be taught. We document it as such." },
+    "m2.p": { es: "Documentar la autoconstrucción como un saber técnico, financiero y político propio. Levantar una casa por partes, durante décadas, con los materiales disponibles, es un oficio con historia, gramática y capacidad de transmisión.",
+              en: "Document self-building as a technical, financial and political knowledge in its own right. Raising a house in stages, over decades, with whatever materials are at hand is a craft with a history, a grammar and the capacity to be taught." },
 
     "m3.h": { es: "El barrio es una institución política", en: "The neighbourhood is a political institution" },
-    "m3.p": { es: "Los asentamientos autoproducidos resuelven agua, electricidad, suelo y seguridad antes de que el Estado llegue. En ese proceso producen autoridad, membresía y formas concretas de ciudadanía. Observamos esas formas.",
-              en: "Self-produced settlements resolve water, electricity, land and safety before the state arrives. In doing so they produce authority, membership and concrete forms of citizenship. We observe those forms." },
+    "m3.p": { es: "Observar la autoridad, la membresía y las formas concretas de ciudadanía que producen los asentamientos autoproducidos cuando resuelven agua, electricidad, suelo y seguridad antes de que llegue el Estado.",
+              en: "Observe the authority, membership and concrete forms of citizenship that self-produced settlements generate when they resolve water, electricity, land and safety before the state arrives." },
 
     "m4.h": { es: "La investigación emergente está dispersa", en: "Emerging research is scattered" },
-    "m4.p": { es: "Tesis doctorales, trabajos de campo y archivos comunitarios circulan poco y envejecen en repositorios institucionales. OBRA reúne ese trabajo en un solo lugar, con nombre, autoría y contexto.",
-              en: "Doctoral theses, fieldwork and community archives circulate little and age inside institutional repositories. OBRA gathers that work in one place, with names, authorship and context." },
+    "m4.p": { es: "Reunir en un solo lugar, con nombre, autoría y contexto, las tesis doctorales, los trabajos de campo y los archivos comunitarios que hoy circulan poco y envejecen en repositorios institucionales.",
+              en: "Gather in one place, with names, authorship and context, the doctoral theses, fieldwork and community archives that today circulate little and age inside institutional repositories." },
 
     "m5.h": { es: "El sur global no es un caso de estudio", en: "The global South is not a case study" },
-    "m5.p": { es: "Los campamentos de Santiago, las favelas de São Paulo, los sótanos habitados de Nueva York y las construcciones por cuenta propia de Nairobi comparten problemas de tenencia, financiamiento y reconocimiento. Trabajamos entre ellos sin jerarquías de referencia.",
-              en: "Santiago's campamentos, São Paulo's favelas, New York's inhabited basements and Nairobi's owner-built housing share problems of tenure, finance and recognition. We work across them without hierarchies of reference." },
+    "m5.p": { es: "Trabajar entre los campamentos de Santiago, las favelas de São Paulo, los sótanos habitados de Nueva York y las construcciones por cuenta propia de Nairobi, sin jerarquías de referencia. Todos comparten problemas de tenencia, financiamiento y reconocimiento.",
+              en: "Work across Santiago's campamentos, São Paulo's favelas, New York's inhabited basements and Nairobi's owner-built housing, without hierarchies of reference. All of them share problems of tenure, finance and recognition." },
 
     "m6.h": { es: "Visibilizar es una operación política", en: "Making visible is a political operation" },
-    "m6.p": { es: "Nombrar, mapear y publicar cambia lo que puede discutirse en política de vivienda. OBRA publica para que estos barrios entren en la discusión con su propio vocabulario.",
-              en: "Naming, mapping and publishing changes what can be discussed in housing policy. OBRA publishes so that these neighbourhoods enter the debate on their own terms." },
+    "m6.p": { es: "Publicar para que estos barrios entren en la discusión sobre política de vivienda con su propio vocabulario. Nombrar, mapear y difundir cambia lo que puede discutirse.",
+              en: "Publish so that these neighbourhoods enter the housing policy debate in their own vocabulary. Naming, mapping and circulating changes what can be discussed." },
 
     /* --- Portada: qué observamos --- */
     "axioms.label": { es: "§02 / Qué observamos", en: "§02 / What we observe" },
@@ -221,60 +221,13 @@ window.OBRA = {
      ------------------------------------------------------------------------ */
   publications: [
     {
-      year: "2026", cat: "articulo", url: "#",
-      author: { es: "Alonso López", en: "Alonso López" },
-      title: { es: "Ciudadanía por bricolaje: construir pertenencia en los campamentos de Santiago",
-               en: "Bricolage Citizenship: Building Belonging in Santiago's Autoconstructed Settlements" },
-      desc:  { es: "Cómo la construcción por etapas de una vivienda produce, a la vez, una posición política reconocible frente al Estado.",
-               en: "How building a house in stages simultaneously produces a recognisable political position before the state." }
-    },
-    {
-      year: "2026", cat: "blog", url: "#",
-      author: { es: "Redacción OBRA", en: "OBRA editorial" },
-      title: { es: "Cinco etapas de una casa que nunca termina",
-               en: "Five stages of a house that is never finished" },
-      desc:  { es: "Una lectura del ciclo de ampliación de la vivienda autoconstruida, desde la mediagua hasta el segundo piso.",
-               en: "A reading of the expansion cycle of self-built housing, from the emergency shelter to the second floor." }
-    },
-    {
-      year: "2025", cat: "iniciativa", url: "#",
-      author: { es: "OBRA", en: "OBRA" },
-      title: { es: "Cartografía abierta de asentamientos autoproducidos",
-               en: "Open cartography of self-produced settlements" },
-      desc:  { es: "Un mapa colaborativo que registra ubicación, antigüedad y estado de tenencia de asentamientos en cuatro países.",
-               en: "A collaborative map recording location, age and tenure status of settlements across four countries." }
-    },
-    {
-      year: "2025", cat: "articulo", url: "#",
-      author: { es: "Por definir", en: "To be confirmed" },
-      title: { es: "Infraestructura por cuenta propia: agua y electricidad antes del Estado",
-               en: "Do-it-yourself infrastructure: water and electricity before the state" },
-      desc:  { es: "Redes construidas por los vecinos, su mantenimiento cotidiano y su relación con la formalización posterior.",
-               en: "Networks built by residents, their everyday maintenance and their relation to later formalisation." }
-    },
-    {
-      year: "2025", cat: "libro", url: "#",
-      author: { es: "Reseña", en: "Review" },
-      title: { es: "Manual de la casa progresiva",
-               en: "Manual of the incremental house" },
-      desc:  { es: "Reseña de un manual técnico que documenta la construcción por etapas con materiales de mercado local.",
-               en: "Review of a technical manual documenting stage-by-stage construction with locally available materials." }
-    },
-    {
-      year: "2024", cat: "blog", url: "#",
-      author: { es: "Redacción OBRA", en: "OBRA editorial" },
-      title: { es: "Qué le debe la arquitectura a la autoconstrucción",
-               en: "What architecture owes to self-building" },
-      desc:  { es: "Una revisión de las soluciones técnicas que la disciplina tomó de la construcción popular sin acreditarlas.",
-               en: "A review of the technical solutions the discipline took from popular construction without crediting them." }
-    },
-    {
-      year: "2024", cat: "archivo", url: "#",
-      author: { es: "Archivo OBRA", en: "OBRA archive" },
-      title: { es: "Registro fotográfico: veinte años de una manzana",
-               en: "Photographic record: twenty years of a city block" },
-      desc:  { es: "Serie comparada que documenta el crecimiento de una manzana autoconstruida entre 2004 y 2024.",
-               en: "A comparative series documenting the growth of a self-built city block between 2004 and 2024." }
+      year: "2025", cat: "articulo", url: "https://revistaabismo.com/construir-un-futuro-incierto/",
+      author: { es: "Renato González y Alonso López · Revista Abismo",
+                en: "Renato González and Alonso López · Revista Abismo" },
+      title: { es: "Construir un futuro incierto",
+               en: "Construir un futuro incierto (Building an uncertain future, in Spanish)" },
+      desc:  { es: "Crónica sobre el Campamento Nueva Cordillera, en Puente Alto: la autoconstrucción de 174 hogares en los faldeos del cerro La Ballena bajo la amenaza del desalojo.",
+               en: "A chronicle of Campamento Nueva Cordillera in Puente Alto: 174 households self-building their homes on the slopes of Cerro La Ballena under the threat of eviction." }
     }
   ],
 
@@ -285,36 +238,20 @@ window.OBRA = {
      ------------------------------------------------------------------------ */
   activities: [
     {
-      date: "2026-09-24", url: "#",
-      place: { es: "En línea", en: "Online" },
-      title: { es: "Seminario de apertura: observar lo autoconstruido",
-               en: "Opening seminar: observing the self-built" },
-      desc:  { es: "Sesión inaugural del observatorio. Presentación del manifiesto y discusión abierta sobre los métodos de trabajo de la red.",
-               en: "Inaugural session of the observatory. Presentation of the manifesto and open discussion of the network's working methods." }
+      date: "2026-12-15", url: "#",
+      place: { es: "Lugar por confirmar", en: "Venue to be confirmed" },
+      title: { es: "Lanzamiento de la plataforma OBRA",
+               en: "Launch of the OBRA platform" },
+      desc:  { es: "Presentación pública del observatorio, su equipo y su plataforma de publicaciones sobre barrios y viviendas autoconstruidas.",
+               en: "Public presentation of the observatory, its team and its publication platform on self-built neighbourhoods and housing." }
     },
     {
-      date: "2026-10-15", url: "#",
-      place: { es: "Híbrido · Santiago", en: "Hybrid · Santiago" },
-      title: { es: "Taller: métodos de campo en asentamientos populares",
-               en: "Workshop: fieldwork methods in informal settlements" },
-      desc:  { es: "Taller práctico sobre entrada al campo, consentimiento, registro visual y devolución de resultados a la comunidad.",
-               en: "A practical workshop on entering the field, consent, visual recording and returning results to the community." }
-    },
-    {
-      date: "2026-11-06", url: "#",
-      place: { es: "Híbrido · Nueva York", en: "Hybrid · New York" },
-      title: { es: "Conversatorio: tenencia y derecho a permanecer",
-               en: "Conversation: tenure and the right to remain" },
-      desc:  { es: "Discusión comparada sobre regularización, desalojo y las estrategias vecinales para asegurar la permanencia.",
-               en: "A comparative discussion on regularisation, eviction and residents' strategies for securing permanence." }
-    },
-    {
-      date: "2026-06-12", url: "#",
-      place: { es: "En línea", en: "Online" },
-      title: { es: "Presentación pública del observatorio",
-               en: "Public launch of the observatory" },
-      desc:  { es: "Primera reunión abierta con investigadoras e investigadores interesados en integrar la red.",
-               en: "First open meeting with researchers interested in joining the network." }
+      date: "2027-03-15", url: "#",
+      place: { es: "Lugar por confirmar", en: "Venue to be confirmed" },
+      title: { es: "Puntapié inicial del Workshop Trimestral de OBRA",
+               en: "Kick-off of the OBRA Quarterly Workshop" },
+      desc:  { es: "Primera sesión del workshop trimestral, un espacio regular para discutir investigaciones en curso sobre autoconstrucción y asentamientos populares.",
+               en: "First session of the quarterly workshop, a regular space to discuss ongoing research on self-building and informal settlements." }
     }
   ],
 
@@ -326,26 +263,38 @@ window.OBRA = {
     {
       name: "Alonso López",
       photo: "assets/img/alonso-lopez.jpg",
-      role: { es: "Fundador y Director",
-              en: "Founder and Director" },
-      affiliation: { es: "The New School for Social Research · ICSO, Universidad Diego Portales",
-                     en: "The New School for Social Research · ICSO, Universidad Diego Portales" },
-      bio: { es: "Candidato a doctor en Sociología. Investiga la autoconstrucción de viviendas y la formación de ciudadanía en asentamientos de Santiago. Editor general de Cuadernos de Teoría Social.",
-             en: "PhD candidate in Sociology. Researches self-built housing and the formation of citizenship in Santiago's settlements. General editor of Cuadernos de Teoría Social." },
-      works: [
-        { es: "Ciudadanía por bricolaje: construir pertenencia en los campamentos de Santiago (tesis doctoral en curso)",
-          en: "Bricolage Citizenship: Building Belonging in Santiago's Autoconstructed Settlements (doctoral dissertation in progress)" },
-        { es: "Urban Theory Workshop, coordinación general",
-          en: "Urban Theory Workshop, general coordination" }
-      ],
-      links: [
-        { label: { es: "Correo", en: "Email" }, url: "mailto:obra.obs@gmail.com" }
-      ]
+      role: { es: "Director", en: "Director" },
+      affiliation: { es: "The New School for Social Research",
+                     en: "The New School for Social Research" },
+      bio: { es: "Doctorando en Sociología. Investiga la autoconstrucción de viviendas y la formación de ciudadanía en los asentamientos de Santiago. Editor general de Cuadernos de Teoría Social.",
+             en: "PhD student in Sociology. Researches self-built housing and the formation of citizenship in Santiago's settlements. General editor of Cuadernos de Teoría Social." }
+    },
+    {
+      name: "Monise Valente da Silva",
+      photo: "assets/img/monise-valente-da-silva.jpg",
+      role: { es: "Investigadora principal", en: "Principal researcher" },
+      affiliation: { es: "City University of New York, John Jay College",
+                     en: "City University of New York, John Jay College" },
+      bio: { es: "Doctora en Políticas Públicas y Urbanas y profesora asistente de Estudios Interdisciplinarios. Investiga las tácticas de los movimientos de vivienda y la política socioespacial de las ocupaciones en Brasil.",
+             en: "Doctor in Public and Urban Policy and Assistant Professor of Interdisciplinary Studies. Researches housing movement tactics and the sociospatial politics of squatting in Brazil." }
     },
     {
       name: "Julia Sotomayor",
-      role: { es: "Investigadora asociada",
-              en: "Associate researcher" }
+      photo: "assets/img/julia-sotomayor.jpg",
+      role: { es: "Investigadora asociada", en: "Associate researcher" },
+      affiliation: { es: "Universidad Alberto Hurtado",
+                     en: "Universidad Alberto Hurtado" },
+      bio: { es: "Antropóloga. Trabaja en patrimonio, educación y metodologías participativas, con experiencia en investigación aplicada, mediación comunitaria y producción documental en Santiago.",
+             en: "Anthropologist. Works on heritage, education and participatory methods, with experience in applied research, community mediation and documentary production in Santiago." }
+    },
+    {
+      name: "Gustavo Azevedo",
+      photo: "assets/img/gustavo-azevedo.jpg",
+      role: { es: "Investigador asociado", en: "Associate researcher" },
+      affiliation: { es: "IESP, Universidade do Estado do Rio de Janeiro",
+                     en: "IESP, Universidade do Estado do Rio de Janeiro" },
+      bio: { es: "Doctorando en Sociología e investigador del grupo CASA. Estudia cómo los habitantes de la Baixada Fluminense autoconstruyen sus casas a través de mercados informales de servicios de construcción.",
+             en: "PhD student in Sociology and researcher at the CASA group. Studies how residents of the Baixada Fluminense self-build their homes through informal markets for construction services." }
     }
   ],
 
